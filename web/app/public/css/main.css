@@ -1,0 +1,26 @@
+.hide-submit {
+    background: none;
+    padding: 0;
+    border: none;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    line-height: 1.3rem;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.hide-submit:hover{
+    color: #00d1b2;
+}
+
+.liked{
+    color: #00d1b2;
+}
+.deleted{
+    display: none;
+    transition: all 500ms ease;
+}
+
+button:focus {
+    outline: 0;
+}
